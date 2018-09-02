@@ -9,7 +9,13 @@ table{
 }
 
 td{
-    border-bottom: 1px solid blue;
+    border-bottom: 1px dashed gray;
+    padding: 5px 0px;
+}
+
+td.even{
+    /* border-bottom: 2px dashed brown; */
+    background-color: lightgoldenrodyellow;
 }
 
 th{
